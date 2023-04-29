@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto+Slab:wght@600&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./css/styles.css" rel="stylesheet" />
+  </head>
+  <body class="body">
+    <!-- _______________________  header _______________________  -->
+    <header class="header">
+      <div class="container container-flex">
+        <nav class="header-nav">
+          <a class="header-logo link" href="./index.html"
+            >Web<span class="header-logo-stail">Studio</span>
+          </a>
+          <ul class="header-list list">
+            <li class="header-item">
+              <a class="header-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link current" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <button type="button" class="mobile-meny-burger js-open-menu">
+          <svg class="mobile-meny-burger-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+        <div class="adress-right">
+          <address class="header-address">
+            <a class="header-address-mail link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+            <a class="header-address-tell link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </address>
+        </div>
+      </div>
+      <div class="mobile-meny js-menu-container">
+        <div class="container container-mobile-meny">
+          <button type="button" class="mobile-meny-close-btn js-close-menu">
+            <svg class="mobile-meny-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <ul class="list">
+            <li class="mobile-meny-nav-item">
+              <a class="mobile-meny-nav-link link" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="mobile-meny-nav-item">
+              <a class="mobile-meny-nav-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobile-meny-nav-item">
+              <a class="mobile-meny-nav-link link" href="">Contacts</a>
+            </li>
+          </ul>
+          <ul class="list">
+            <li class="mobile-meny-address-item">
+              <a class="mobile-meny-address-tell link" href="tel:+110001111111"
+                >+11 (000) 111-11-11
+              </a>
+            </li>
+            <li class="mobile-meny-address-item">
+              <a
+                class="mobile-meny-address-mail link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com
+              </a>
+            </li>
+          </ul>
+          <ul class="mobile-soc-list list">
+            <li class="mobile-soc-item">
+              <a class="mobile-soc-link link" href="">
+                <svg class="mobile-soc-icons">
+                  <use href="./images/icons.svg#icon-soc-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-soc-item">
+              <a class="mobile-soc-link link" href="">
+                <svg class="mobile-soc-icons">
+                  <use href="./images/icons.svg#icon-soc-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-soc-item">
+              <a class="mobile-soc-link link" href="">
+                <svg class="mobile-soc-icons">
+                  <use href="./images/icons.svg#icon-soc-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-soc-item">
+              <a class="mobile-soc-link link" href="">
+                <svg class="mobile-soc-icons">
+                  <use href="./images/icons.svg#icon-soc-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- _______________________ section scrolls _______________________ -->
+      <section class="scrolls">
+        <div class="container">
+          <h1 class="scrolls-title">scrolls</h1>
+          <ul class="scrolls-list-btr list">
+            <li class="scrolls-list-btr-item link">
+              <button class="scrolls-btr" type="button">All</button>
+            </li>
+            <li class="scrolls-list-btr-item link">
+              <button class="scrolls-btr" type="button">Web Site</button>
+            </li>
+            <li class="scrolls-list-btr-item link">
+              <button class="scrolls-btr" type="button">App</button>
+            </li>
+            <li class="scrolls-list-btr-item link">
+              <button class="scrolls-btr" type="button">Design</button>
+            </li>
+            <li class="scrolls-list-btr-item link">
+              <button class="scrolls-btr" type="button">Marketing</button>
+            </li>
+          </ul>
+
+          <!-- ______________________________________________ -->
+
+          <ul class="scrolls-list-img list">
+            <li class="scrolls-list-img-item">
+              <a class="scrolls-link" href="">
+                <div class="scrolls-img-box">
+                  <picture>
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="
+                        ./images/img-desktop-project-card-1.jpg    1x,
+                        ./images/img-desktop-project-card-1@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/img-tablet-project-card-1.jpg    1x,
+                        ./images/img-tablet-project-card-1@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/img-mobile-project-card-1.jpg    1x,
+                        ./images/img-mobile-project-card-1@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./images/img-desktop-project-card-1.jpg"
+                      alt="img project card 1"
+                    />
+                  </picture>
+                  <p class="overlay">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sapiente ipsam, iusto natus architecto odit nemo maxime.
+                    Necessitatibus qui odio maxime cupiditate quasi voluptates
+                    architecto adipisci voluptatem facilis amet, id est.
+                  </p>
+                </div>
+                <div class="scrolls-border">
+                  <h2 class="scrolls-list-img-title">
+                    Banking App Interface Concept
+                  </h2>
+                  <p class="scrolls-list-img-text">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="scrolls-list-img-item">
+              <a class="scrolls-link" href="">
+                <div class="scrolls-img-box">
+                  <picture>
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="
+                        ./images/img-desktop-project-card-2.jpg    1x,
+                        ./images/img-desktop-project-card-2@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/img-tablet-project-card-2.jpg    1x,
+                        ./images/img-tablet-project-card-2@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/img-mobile-project-card-2.jpg    1x,
+                        ./images/img-mobile-project-card-2@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./images/img-desktop-project-card-2.jpg"
+                      alt="img project card 2"
+                    />
+                  </picture>
+
+                  <p class="overlay">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sapiente ipsam, iusto natus architecto odit nemo maxime.
+                    Necessitatibus qui odio maxime cupiditate quasi voluptates
+                    architecto adipisci voluptatem facilis amet, id est.
+                  </p>
+                </div>
+                <div class="scrolls-border">
+                  <h2 class="scrolls-list-img-title">Cashless Payment</h2>
+                  <p class="scrolls-list-img-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="scrolls-list-img-item">
+              <a class="scrolls-link" href="">
+                <div class="scrolls-img-box">
+                  <picture>
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="
+                        ./images/img-desktop-project-card-3.jpg    1x,
+                        ./images/img-desktop-project-card-3@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/img-tablet-project-card-3.jpg    1x,
+                        ./images/img-tablet-project-card-3@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/img-mobile-project-card-3.jpg    1x,
+                        ./images/img-mobile-project-card-3@2x.jpg 2x
+                      "
+                    />
+
+                    <img
+                      src="./images/img-desktop-project-card-3.jpg"
+                      alt="img project card 3"
+                    />
+                  </picture>
+                  <p class="overlay">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sapiente ipsam, iusto natus architecto odit nemo maxime.
+                    Necessitatibus qui odio maxime cupiditate quasi voluptates
+                    architecto adipisci voluptatem facilis amet, id est.
+                  </p>
+                </div>
+                <div class="scrolls-border">
+                  <h2 class="scrolls-list-img-title">Meditation App</h2>
+                  <p class="scrolls-list-img-text">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="scrolls-list-img-item">
+              <a class="scrolls-link" href="">
+                <div class="scrolls-img-box">
+                  <picture>
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="
+                        ./images/img-desktop-project-card-4.jpg    1x,
+                        ./images/img-desktop-project-card-4@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/img-tablet-project-card-4.jpg    1x,
+                        ./images/img-tablet-project-card-4@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/img-mobile-project-card-4.jpg    1x,
+                        ./images/img-mobile-project-card-4@2x.jpg 2x
+                      "
+                    />
+
+                    <img
+                      src="./images/img-desktop-project-card-4.jpg"
+                      alt="img project card 4"
+                    />
+                  </picture>
+                  <p class="overlay">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sapiente ipsam, iusto natus architecto odit nemo maxime.
+                    Necessitatibus qui odio maxime cupiditate quasi voluptates
+                    architecto adipisci voluptatem facilis amet, id est.
+                  </p>
+                </div>
+                <div class="scrolls-border">
+                  <h2 class="scrolls-list-img-title">Taxi Service</h2>
+                  <p class="scrolls-list-img-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="scrolls-list-img-item">
+              <a class="scrolls-link" href="">
+                <div class="scrolls-img-box">
+                  <picture>
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="
+                        ./images/img-desktop-project-card-5.jpg    1x,
+                        ./images/img-desktop-project-card-5@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/img-tablet-project-card-5.jpg    1x,
+                        ./images/img-tablet-project-card-5@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/img-mobile-project-card-5.jpg    1x,
+                        ./images/img-mobile-project-card-5@2x.jpg 2x
+                      "
+                    />
+
+                    <img
+                      src="./images/img-desktop-project-card-5.jpg"
+                      alt="img project card 5"
+                    />
+                  </picture>
+                  <p class="overlay">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sapiente ipsam, iusto natus architecto odit nemo maxime.
+                    Necessitatibus qui odio maxime cupiditate quasi voluptates
+                    architecto adipisci voluptatem facilis amet, id est.
+                  </p>
+                </div>
+                <div class="scrolls-border">
+                  <h2 class="scrolls-list-img-title">Screen Illustrations</h2>
+                  <p class="scrolls-list-img-text">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="scrolls-list-img-item">
+              <a class="scrolls-link" href="">
+                <div class="scrolls-img-box">
+                  <picture>
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="
+                        ./images/img-desktop-project-card-6.jpg    1x,
+                        ./images/img-desktop-project-card-6@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/img-tablet-project-card-6.jpg    1x,
+                        ./images/img-tablet-project-card-6@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/img-mobile-project-card-6.jpg    1x,
+                        ./images/img-mobile-project-card-6@2x.jpg 2x
+                      "
+                    />
+
+                    <img
+                      src="./images/img-desktop-project-card-6.jpg"
+                      alt="img project card 6"
+                    />
+                  </picture>
+                  <p class="overlay">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sapiente ipsam, iusto natus architecto odit nemo maxime.
+                    Necessitatibus qui odio maxime cupiditate quasi voluptates
+                    architecto adipisci voluptatem facilis amet, id est.
+                  </p>
+                </div>
+                <div class="scrolls-border">
+                  <h2 class="scrolls-list-img-title">Online Courses</h2>
+                  <p class="scrolls-list-img-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="scrolls-list-img-item">
+              <a class="scrolls-link" href="">
+                <div class="scrolls-img-box">
+                  <picture>
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="
+                        ./images/img-desktop-project-card-7.jpg    1x,
+                        ./images/img-desktop-project-card-7@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/img-tablet-project-card-7.jpg    1x,
+                        ./images/img-tablet-project-card-7@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/img-mobile-project-card-7.jpg    1x,
+                        ./images/img-mobile-project-card-7@2x.jpg 2x
+                      "
+                    />
+
+                    <img
+                      src="./images/img-desktop-project-card-7.jpg"
+                      alt="img project card 7"
+                    />
+                  </picture>
+                  <p class="overlay">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sapiente ipsam, iusto natus architecto odit nemo maxime.
+                    Necessitatibus qui odio maxime cupiditate quasi voluptates
+                    architecto adipisci voluptatem facilis amet, id est.
+                  </p>
+                </div>
+                <div class="scrolls-border">
+                  <h2 class="scrolls-list-img-title">
+                    Instagram Stories Concept
+                  </h2>
+                  <p class="scrolls-list-img-text">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="scrolls-list-img-item">
+              <a class="scrolls-link" href="">
+                <div class="scrolls-img-box">
+                  <picture>
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="
+                        ./images/img-desktop-project-card-8.jpg    1x,
+                        ./images/img-desktop-project-card-8@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/img-tablet-project-card-8.jpg    1x,
+                        ./images/img-tablet-project-card-8@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/img-mobile-project-card-8.jpg    1x,
+                        ./images/img-mobile-project-card-8@2x.jpg 2x
+                      "
+                    />
+
+                    <img
+                      src="./images/img-desktop-project-card-8.jpg"
+                      alt="img project card 8"
+                    />
+                  </picture>
+                  <p class="overlay">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sapiente ipsam, iusto natus architecto odit nemo maxime.
+                    Necessitatibus qui odio maxime cupiditate quasi voluptates
+                    architecto adipisci voluptatem facilis amet, id est.
+                  </p>
+                </div>
+                <div class="scrolls-border">
+                  <h2 class="scrolls-list-img-title">Organic Food</h2>
+                  <p class="scrolls-list-img-text">Web Site</p>
+                </div>
+              </a>
+            </li>
+            <li class="scrolls-list-img-item">
+              <a class="scrolls-link" href="">
+                <div class="scrolls-img-box">
+                  <picture>
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="
+                        ./images/img-desktop-project-card-9.jpg    1x,
+                        ./images/img-desktop-project-card-9@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/img-tablet-project-card-9.jpg    1x,
+                        ./images/img-tablet-project-card-9@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/img-mobile-project-card-9.jpg    1x,
+                        ./images/img-mobile-project-card-9@2x.jpg 2x
+                      "
+                    />
+
+                    <img
+                      src="./images/img-desktop-project-card-9.jpg"
+                      alt="img project card 9"
+                    />
+                  </picture>
+                  <p class="overlay">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sapiente ipsam, iusto natus architecto odit nemo maxime.
+                    Necessitatibus qui odio maxime cupiditate quasi voluptates
+                    architecto adipisci voluptatem facilis amet, id est.
+                  </p>
+                </div>
+                <div class="scrolls-border">
+                  <h2 class="scrolls-list-img-title">Fresh Coffee</h2>
+                  <p class="scrolls-list-img-text">Web Site</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- _______________________ section scrolls _______________________ -->ZV
+    <!-- ______________________ footer______________________________ -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="logo-box-footer">
+          <a class="footer-logo link" href="./index.html"
+            >Web<span class="footer-logo-stail">Studio</span>
+          </a>
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+        <div class="footer-soc-box">
+          <p class="footer-soc-title">Social media</p>
+          <ul class="footer-soc-list list">
+            <li class="footer-soc-item">
+              <a class="footer-soc-link link" href="https://www.instagram.com/">
+                <svg class="footer-soc-icons">
+                  <use href="./images/icons.svg#icon-soc-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a
+                class="footer-soc-link link"
+                href="https://twitter.com/?lang=uk"
+              >
+                <svg class="footer-soc-icons">
+                  <use href="./images/icons.svg#icon-soc-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a class="footer-soc-link link" href="https://www.facebook.com/">
+                <svg class="footer-soc-icons">
+                  <use href="./images/icons.svg#icon-soc-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a class="footer-soc-link link" href="https://www.linkedin.com/">
+                <svg class="footer-soc-icons">
+                  <use href="./images/icons.svg#icon-soc-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-subscribe-box">
+          <p class="subscribe-text">Subscribe</p>
+          <form class="subscribe-form">
+            <div class="subscribe-box">
+              <label>
+                <input
+                  type="email"
+                  class="subscribe-form-input"
+                  name="user_email"
+                  placeholder="E mail"
+                />
+              </label>
+              <button type="submit" class="subscribe-form-btn">
+                Subscribe
+                <svg class="subscribe-icon">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ---------------------------------Modal-------------------------------------- -->
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
+
+<!--  
+      <picture>
+      <source media="(min-width: 1200px)" srcset="./images/img-desktop-project-card-1.jpg 1x, ./images/img-desktop-project-card-1@2x.jpg 2x" />
+      <source media="(min-width: 768px)" srcset="./images/img-tablet-project-card-1.jpg 1x, ./images/img-tablet-project-card-1@2x.jpg 2x" />
+      <source media="(max-width: 767px)" srcset="./images/img-mobile-project-card-1.jpg 1x, ./images/img-mobile-project-card-1@2x.jpg 2x" />
+      </picture> 
+    
+    -->
